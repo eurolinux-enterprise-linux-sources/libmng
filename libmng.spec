@@ -1,6 +1,6 @@
 Name: libmng
 Version: 1.0.10
-Release: 12%{?dist}
+Release: 14%{?dist}
 URL: http://www.libmng.com/
 Summary: Library for Multiple-image Network Graphics support
 # This is a common zlib variant.
@@ -70,6 +70,12 @@ rm -rf $RPM_BUILD_ROOT
 %{_mandir}/man5/*
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 1.0.10-14
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.0.10-13
+- Mass rebuild 2013-12-27
+
 * Thu Jun 13 2013 siddharth sharma <siddharth@redhat.com> - 1.0.10-12
 - use lcms2 instead of lcms , fix bz#973965 
 
